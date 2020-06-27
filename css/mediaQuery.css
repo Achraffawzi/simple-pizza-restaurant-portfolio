@@ -1,0 +1,209 @@
+/* HOME MEDIA QUERY */
+@media only screen and (max-width: 1200px) {
+	.about-us {
+		grid-template-columns: 1fr;
+		background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../images/restaurant.jpg);
+		color: #fff;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+	}
+
+	.about-us .about-us-description p {
+		columns: 1;
+		text-align: center!important;
+		font-weight: bold;
+		line-height: 2.7;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.showcase {
+		grid-template-columns: 1fr;
+	}
+
+	.showcase .showcase-left {
+		display: none;
+	}
+
+	.showcase .showcase-right {
+		padding: 0 0.5rem;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.menu h1 {
+		font-size: 1.8rem;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.menu h1 {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 670px) {
+	.payment-methods .container{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media only screen and (max-width: 620px) {
+	.showcase .showcase-right p {
+		font-size: 2rem;
+	}
+
+	.showcase .showcase-right .status{
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 497px) {
+	footer {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media only screen and (max-width: 461px) {
+	.showcase .showcase-right p {
+		font-size: 1.85rem;
+	}
+
+	.showcase .showcase-right .status{
+		font-size: 0.9rem;
+	}
+
+	.payment-methods .container{
+		grid-template-columns: 1fr;
+	}
+}
+
+@media only screen and (max-width: 417px) {
+	.showcase .showcase-right p {
+		font-size: 1.75rem;
+	}
+
+	.showcase .showcase-right .status{
+		font-size: 0.8rem;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.showcase .showcase-right p {
+		font-size: 1.65rem;
+	}
+
+	.showcase .showcase-right .status{
+		font-size: 0.7rem;
+	}
+}
+
+/* MENU MEDIA QUERY */
+@media only screen and (max-width: 1273px) {
+	.food-review .food-review-description {
+		padding: 0 6rem;
+	}
+
+	.food-review .food-review-description h2 {
+		font-size: 2.5rem;
+	}
+
+	.food-review .food-review-description p:first-of-type {
+		font-size: 1rem;
+	}
+
+	.food-review .food-review-description p {
+		font-size: 0.8rem;
+	}
+}
+
+@media only screen and (max-width: 1246px) {
+	.food-review .food-review-description {
+		padding: 0 4rem;
+	}
+
+	.food-review .food-review-description h2 {
+		font-size: 2rem;
+	}
+
+	.food-review .food-review-description p:first-of-type {
+		font-size: 0.85rem;
+	}
+
+	.food-review .food-review-description p {
+		font-size: 0.75rem;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+	.food-review {
+		grid-template-columns: 100%
+	}
+
+	.food-review .food-review-image img{
+		width: 100%;
+	}
+
+	.food-review .food-review-description {
+		padding: 2rem 2rem;
+	}
+}
+
+@media only screen and (max-width: 1019px) {
+
+	.food-review .food-review-description h2 {
+		font-size: 1.8rem;
+	}
+
+	.food-review .food-review-description p:first-of-type {
+		font-size: 0.75rem;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	.food-review .food-review-description p {
+		font-size: 0.8rem;
+	}
+}
+
+@media only screen and (max-width: 356px) {
+
+	.food-review .food-review-description h2 {
+		font-size: 1.5rem;
+	}
+
+	.food-review .food-review-description p:first-of-type {
+		font-size: 0.75rem;
+	}
+
+	.food-review .food-review-description p {
+		font-size: 0.65rem;
+	}
+}
+
+/* ORDER */
+@media only screen and (max-width: 856px) {
+	form {
+		width: 90%;
+	}
+}
+
+/* SHIPPING PROGRESS */
+@media only screen and (max-width: 1021px) {
+	.on-progress {
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 638px) {
+	.on-progress {
+		width: 65%;
+	}
+}
+
+@media only screen and (max-width: 392px) {
+	.on-progress {
+		width: 75%;
+	}
+}
